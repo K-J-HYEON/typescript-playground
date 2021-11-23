@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
-        "allowJs": true,
-        "checkJs": true,
-        "noInplicitAny": true,
+        "allowJs" : true,
+        "checkJs" : true,
+        "noImplicitAny": true,
     }
 }
+
+// @ts-check
