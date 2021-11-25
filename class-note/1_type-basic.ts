@@ -1,13 +1,8 @@
 // JS 문자열 선언
 // const str = "hello";
 
-
-
 // TS 문자열 선언
 let str: string = 'hello';
-
-
-// TS 숫자
 let num: number = 10;
 
 // TS 배열
@@ -17,8 +12,6 @@ let items: number[] = [1, 2, 3];
 
 // TS 튜플
 let address: [string, number] = ['gangnam', 100];
-
-
 
 // TS 객체
 let obj: object = {};
