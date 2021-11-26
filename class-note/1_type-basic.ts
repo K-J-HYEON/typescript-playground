@@ -13,18 +13,19 @@ let heroes: Array<string> = ['Capt', 'Thor', 'Hulk'];
 let items: number[] = [1, 2, 3];
 
 // TS 튜플
-let address: [string, number] = ['gangnam', 100];
+let address: [string, number] = ['jingu', 10];
+
 
 // TS 객체
 let obj: object = {};
 // let person: object = {
-//     name: 'capt',
-//     age: 100
+//     name: 'kay',
+//     age: 27
 // };
 
 let person: { name: string, age: number } = {
-    name: 'thor',
-    age: 1000
+    name: 'jay',
+    age: 27
 }
 
 // TS 진위값
