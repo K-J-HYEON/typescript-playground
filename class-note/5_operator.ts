@@ -29,7 +29,7 @@ interface Person {
 }
 
 // function askSomeone(someone: Developer | Person) {
-// someone.name;
+// someone.name;T
 // someone.skill
 // someone.age
 // }
