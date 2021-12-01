@@ -1,12 +1,12 @@
-interface DropdownItem<T>{
+interface DropdownItem<T> {
   value: T;
-  selected: boolean; 
+  selected: boolean;
 }
 
-// interface Email {
-//   value: string;
-//   selected: boolean;
-// }
+interface Email {
+  value: string;
+  selected: boolean;
+}
 
 const emails: DropdownItem<string>[] = [
   { value: 'naver.com', selected: true },
@@ -14,15 +14,15 @@ const emails: DropdownItem<string>[] = [
   { value: 'hanmail.net', selected: false },
 ];
 
-// interface ProductNumber {
-//   value: number;
-//   selected: boolean;
-// }
+interface ProductNumber {
+  value: number;
+  selected: boolean;
+}
 
-// interface TrueFalse {
-//   value: boolean;
-//   selected: boolean;
-// }
+interface TrueFalse {
+  value: boolean;
+  selected: boolean;
+}
 
 const numberOfProducts: DropdownItem<number>[] = [
   { value: 1, selected: true },
@@ -47,4 +47,4 @@ emails.forEach(function (email) {
 
 numberOfProducts.forEach(function (product) {
   const item = createDropdownItem(product);
-});
+})
