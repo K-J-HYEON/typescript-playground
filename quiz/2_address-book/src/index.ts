@@ -1,5 +1,22 @@
 import { Contact, PhoneType } from './types'
 
+// interface PhoneNumberDictionary {
+//   [phone: string]: {
+//     num: number;
+//   };
+// }
+
+// interface Contact {
+//   name: string;
+//   address: string;
+//   phones: PhoneNumberDictionary;
+// }
+
+// enum PhoneType {
+//   Home = 'home',
+//   Office = 'office',
+//   Studio = 'studio'
+// }
 
 // api
 // TODO: 아래 함수의 반환 타입을 지정해보세요.
@@ -52,6 +69,7 @@ class AddressBook {
 
   constructor() {
     this.fetchData();
+    // findContactByPhone(PhoneType.Home);
   }
 
   fetchData(): void {
@@ -75,6 +93,8 @@ class AddressBook {
       contact => contact.phones[phoneType].num === phoneNumber
     );
   }
+  // 아래와 같은 실수 no
+  // findContactByPhone('homee');
 
 
   addContact(contact: Contact): void {
@@ -98,12 +118,12 @@ div.innerText;
 
 
 // let heroes = [
-//   { name: 'Tony', age: 30},
-//   { name: 'Captain', age: 100}
+//   { name: 'Tony', age: 30 },
+//   { name: 'Captain', age: 100 }
 // ];
-// heroes.map(function(hero) {
+// heroes.map(function (hero) {
 //   return hero.name;
-// })
+// }) // ['Tony', 'Captain']
 
 
 new AddressBook();
